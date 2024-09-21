@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+terraform-app/node_modules
+terraform-server/node_modules
+terraform-app/.pnp
+.pnp.js
+
+# testing
+terraform-app/coverage
+
+# production
+terraform-app/build
+
+# misc
+terraform-app/.DS_Store
+terraform-app/.env.local
+terraform-app/.env.development.local
+terraform-app/.env.test.local
+terraform-app/.env.production.local
+
+terraform-app/npm-debug.log*
+terraform-app/yarn-debug.log*
+terraform-app/yarn-error.log*
